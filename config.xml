@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="idv.pulipuli.blogspot.tw" version="12.0.0.1">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="idv.pulipuli.blogspot.tw" version="1.0.0">
     <name>布丁布丁吃什麼？</name>
     <description>
-        這顆布丁是在無聊的寄誒中找尋樂趣的一種不能吃的食物。喜歡動漫畫、喜歡遊戲、喜歡程式、喜歡跟世間脫節的生活步調中，撰寫blog──布丁布丁吃什麼？ http://blog.pulipuli.info/
+這顆布丁是在無聊的寄誒中找尋樂趣的一種不能吃的食物。喜歡動漫畫、喜歡遊戲、喜歡程式、喜歡跟世間脫節的生活步調中，撰寫blog──布丁布丁吃什麼？ http://blog.pulipuli.info/        
     </description>
     <author href="http://blog.pulipuli.info" email="pulipuli.chen@gmail.com">布丁布丁吃布丁</author>
   
