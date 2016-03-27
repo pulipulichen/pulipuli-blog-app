@@ -12,7 +12,7 @@
     <content src="index.html"/>
     <icon src="icon.png"/>
   
-    <!-- <preference name="phonegap-version" value="3.7.0" /> -->
+    <preference name="phonegap-version" value="3.7.0" />
     
     <!-- 防止太多權限 -->
     <preference name="permissions" value="none" />
@@ -21,4 +21,5 @@
     <feature name="http://api.phonegap.com/1.0/network" />
     
     <!-- 外掛 -->
+    <plugin name="org.apache.cordova.inappbrowser" spec="0.3.3" source="pgb" />
 </widget>
