@@ -9,7 +9,7 @@
     <!--  allows access to any external resource. -->
     <access origin="*"/>
   
-    <content src="index.html"/>
+    <content src="http://blog.pulipuli.info/"/>
     <icon src="icon.png"/>
   
     <preference name="phonegap-version" value="3.7.0" />
