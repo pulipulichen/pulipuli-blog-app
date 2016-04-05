@@ -52,11 +52,11 @@
                 document.addEventListener("deviceready", onDeviceReady, false);
                 // device APIs are available
                 function onDeviceReady() {
-                    alert(navigator.network.connection.type);
+                    //alert(navigator.network.connection.type);
                     if (navigator.network.connection.type == Connection.NONE) {
-                        location.href="offline.html";
+                        location.replace("offline.html");
                     } else {
-                        location.href="http://blog.pulipuli.info";
+                        location.replace("http://blog.pulipuli.info");
                     }
                 }
         </script>
