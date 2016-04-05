@@ -22,4 +22,13 @@
     
     <!-- 外掛 -->
     <plugin name="org.apache.cordova.inappbrowser" spec="0.3.3" source="pgb" />
+    
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    
+    <Capabilities>
+        <Capability Name="ID_CAP_NETWORKING" />
+    </Capabilities>
 </widget>

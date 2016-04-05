@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>布丁布丁吃什麼？</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='style.css' rel='stylesheet' type='text/css'/>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript">
+            if (typeof(cordova) !== "undefined") {
+                document.addEventListener("deviceready", onDeviceReady, false);
+                // device APIs are available
+                function onDeviceReady() {
+                    if(navigator.network.connection.type == Connection.NONE){
+                        location.href="offline.html";
+                    }else{
+                        location.href="http://blog.pulipuli.info";
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="masthead">
+            <div class="container">
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-inner">
+                        <div class="header section" id="header">
+                            <div class="widget Header" id="Header1">
+                                <div class="titlewrapper" style="background: transparent">
+                                    <h1 class="title" style="background: transparent; border-width: 0px">
+                                        布丁布丁吃什麼？
+                                    </h1>
+                                </div>
+                                <div class="descriptionwrapper">
+                                    <p class="description"><span>我不是在實驗室，就是在前往實驗室的路上。</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="content-container">
+                <img src="spin.svg" />
+                <div>
+                    讀取中
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer" id="footer">
+<div class="container clearfix">
+<p>
+<span class="blog-copyright">
+                © Copyright 2016 
+                <a href="http://blog.pulipuli.info/">布丁布丁吃什麼？</a>
+</span>
+</p>
+</div>
+</div>
+    </body>
+</html>
