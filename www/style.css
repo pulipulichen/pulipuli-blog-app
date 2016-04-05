@@ -47,6 +47,20 @@ h1.title {
     white-space: nowrap;
 }
 
+@media (max-width: 460px) {
+    .titlewrapper {
+        margin-top: 10px;
+    }
+    
+    .descriptionwrapper {
+        display: none;
+    }
+    
+    #footer {
+        display:none;
+    }
+}
+
 @media (min-width: 1200px) {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
         width: 1170px;
