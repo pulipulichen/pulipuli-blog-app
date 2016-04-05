@@ -7,35 +7,15 @@
         <link href='style.css' rel='stylesheet' type='text/css'/>
     </head>
     <body>
-        <div id="masthead">
-            <div class="container">
-                <div class="navbar navbar-inverse">
-                    <div class="navbar-inner">
-                        <div class="header section" id="header">
-                            <div class="widget Header" id="Header1">
-                                <div class="titlewrapper" style="background: transparent">
-                                    <h1 class="title" style="background: transparent; border-width: 0px">
-                                        布丁布丁吃什麼？
-                                    </h1>
-                                </div>
-                                <div class="descriptionwrapper">
-                                    <p class="description"><span>我不是在實驗室，就是在前往實驗室的路上。</span></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div id="content">
             <div class="content-container">
-                <img src="wifi_error.png" />
+                <img src="wifi_error.svg" class="offline" />
+                <h1>
+                    無法連到網際網路
+                </h1>
                 <div>
-                    請確認網路連線能夠正常運作
-                    <br />
-                    再開啟應用程式
+                    請開啟網路後再回來吧
                 </div>
-                
             </div>
         </div>
         <div class="footer" id="footer">
@@ -51,7 +31,7 @@
         
         <script>
             window.onfocus = function () {
-                location.replace("./");
+                //location.replace("./");
             }; 
         </script>
     </body>
