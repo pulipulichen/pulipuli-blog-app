@@ -9,7 +9,7 @@
     <!--  allows access to any external resource. -->
     <access origin="*"/>
   
-    <content src="http://blog.pulipuli.info/"/>
+    <content src="index.html"/>
     <icon src="icon.png"/>
   
     <preference name="phonegap-version" value="3.7.0" />
@@ -23,12 +23,5 @@
     <!-- 外掛 -->
     <plugin name="org.apache.cordova.inappbrowser" spec="0.3.3" source="pgb" />
     
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-        <param name="ios-package" value="CDVConnection" />
-    </feature>
-    
-    <Capabilities>
-        <Capability Name="ID_CAP_NETWORKING" />
-    </Capabilities>
+    <feature name="http://api.phonegap.com/1.0/network" />
 </widget>
