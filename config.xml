@@ -23,5 +23,5 @@
     <!-- 外掛 -->
     <plugin name="org.apache.cordova.inappbrowser" spec="0.3.3" source="pgb" />
     
-    <feature name="http://api.phonegap.com/1.0/network" />
+    <plugin name="org.apache.cordova.network-information" spec="0.2.15" source="pgb" />
 </widget>
