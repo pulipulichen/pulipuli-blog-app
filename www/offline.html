@@ -30,9 +30,11 @@
 </div>
         
         <script>
-            window.onfocus = function () {
+            var _redir = function () {
                 location.replace("./");
-            }; 
+            };
+            window.onfocus = _redir; 
+            document.body.onclick = _redir;
         </script>
     </body>
 </html>
