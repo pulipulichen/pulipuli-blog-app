@@ -29,10 +29,14 @@
 </div>
         <script type="text/javascript">
                 //location.href = "http://blog.pulipuli.info/";
-                window.open("http://blog.pulipuli.info/","_self");
-                alert("OK");
+                //window.open("http://blog.pulipuli.info/","_self");
+                //alert("OK");
                 // device APIs are available
                 function onDeviceReady() {
+                    window.open("http://blog.pulipuli.info/","_self");
+                    location.href = "http://blog.pulipuli.info/";
+                    document.location="http://blog.pulipuli.info/";
+                    return;
                     //alert(navigator.network.connection.type);
                     if (navigator.network.connection.type === Connection.NONE) {
                         //location.replace("offline.html");
