@@ -29,13 +29,14 @@
 </div>
         <script type="text/javascript">
                 // 如果有上一頁的話，就直接離開
-                if (history.length > 0) {
-                    window.closed();
-                }
+                
             
                 // device APIs are available
                 function onDeviceReady() {
-                    
+                    if (history.length > 0) {
+                        navigator.app.exitApp();
+                        return;
+                    }
                     
                     //alert(navigator.network.connection.type);
                     if (navigator.network.connection.type === Connection.NONE) {
