@@ -28,17 +28,18 @@
 </div>
 </div>
         <script type="text/javascript">
-            
-                document.addEventListener("deviceready", onDeviceReady, false);
                 // device APIs are available
                 function onDeviceReady() {
                     //alert(navigator.network.connection.type);
-                    if (navigator.network.connection.type == Connection.NONE) {
-                        location.replace("offline.html");
+                    if (navigator.network.connection.type === Connection.NONE) {
+                        //location.replace("offline.html");
+                        location.href = "offline.html";
                     } else {
-                        location.replace("http://blog.pulipuli.info");
+                        //location.replace("http://blog.pulipuli.info/");
+                        location.href = "http://blog.pulipuli.info/";
                     }
                 }
+                document.addEventListener("deviceready", onDeviceReady, false);
         </script>
     </body>
 </html>
