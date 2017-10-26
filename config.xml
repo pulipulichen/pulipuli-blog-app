@@ -12,7 +12,8 @@
     <content src="index.html"/>
     <icon src="icon.png"/>
   
-    <preference name="phonegap-version" value="4.0.0" />
+    <!-- https://build.phonegap.com/current-support -->
+    <preference name="phonegap-version" value="4.3.1" />
     
     <!-- 防止太多權限 -->
     <preference name="permissions" value="none" />
