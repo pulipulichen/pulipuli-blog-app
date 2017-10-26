@@ -28,22 +28,21 @@
 </div>
 </div>
         <script type="text/javascript">
-                //location.href = "http://blog.pulipuli.info/";
-                //window.open("http://blog.pulipuli.info/","_self");
-                //alert("OK");
+                // 如果有上一頁的話，就直接離開
+                if (history.length > 0) {
+                    window.closed();
+                }
+            
                 // device APIs are available
                 function onDeviceReady() {
-                    window.open("http://blog.pulipuli.info/","_self");
-                    location.href = "http://blog.pulipuli.info/";
-                    document.location="http://blog.pulipuli.info/";
-                    return;
+                    
+                    
                     //alert(navigator.network.connection.type);
                     if (navigator.network.connection.type === Connection.NONE) {
                         //location.replace("offline.html");
                         location.href = "offline.html";
                     } else {
-                        //location.replace("http://blog.pulipuli.info/");
-                        location.href = "http://blog.pulipuli.info/";
+                        location.replace("http://blog.pulipuli.info/");
                     }
                 }
                 document.addEventListener("deviceready", onDeviceReady, false);
